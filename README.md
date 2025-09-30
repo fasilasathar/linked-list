@@ -172,19 +172,17 @@ To visually represent:
 
 ### 🖼 Diagram Preview:
 
-![Figma Diagram](https://github.com/Lynx2006/linked-list-team--Data-Structure-/blob/main/DS%20ASSSS.png)
+![Figma Diagram](https://github.com/fasilasathar/linked-list/blob/main/29%2039%2052%2024.png)
 
 ### 🔗 Public Figma Link:
 
-[Click here to view in Figma](https://www.figma.com/design/wL9ApNJinsTEoBF7WwcrJj/Untitled?node-id=0-1&p=f&t=qwyHAVfWOLBaK265-0)
+[Click here to view in Figma](https://www.figma.com/design/MQY2hudHYceVL7jgJ4UWUP/Untitled?node-id=0-1&p=f&t=itOqAj1MgsiVVFul-0)
 
 ---
 
 ## 📑 Final Report
 
 The final report includes:
-
-* 📌 GitHub Repository: [View Repo](https://github.com/Lynx2006/linked-list-team--Data-Structure-)
 
 * ✅ Figma Diagram + Screenshot
 
@@ -200,19 +198,23 @@ The final report includes:
 
 ## 👥 Team Contributions
 
-| Member         | Roll No | Contribution                         |
-| -------------  | ------- | -----------------------------------  |
-| Fasila Sathar  | 29      | Main code logic + display function   |
-| Mariya Joseph  | 39      | Insertion function                   |
-| Devanandha P S | 24      | Figma diagram + Report formatting    |
-| Sara Paul      | 52      | Git52ub setup + Pull request reviews |
+| Member         | Roll No | GitHub Contribution                              |
+| -------------- | ------- | ------------------------------------------------ |
+| Fasila Sathar  | 29      | Created repository structure + Managed issues    |
+| Mariya Joseph  | 39      | Implemented CI workflows + Branch protection     |
+| Devanandha P S | 24      | Designed README.md + Added project wiki pages    |
+| Sara Paul      | 52      | Reviewed PRs + Managed labels & milestones       |
 
 ---
 
-## ✨ Reflection
+ Reflection
 
-* 👨‍💻 Understood how singly linked lists manage dynamic memory and pointers
-* ✅ Practiced key list operations: **insert** and **traverse**
-* 🔁 Learned how to **collaborate using GitHub**, use **branches**, and manage **pull requests**
-* 🎨 Visualized data structures using **Figma**, making debugging and team understanding easier
-* 🤝 Gained experience in structured **teamwork**, communication, and documentation
+    ⦾ Grasped the concept of node-based memory allocation and how pointers link data in C
+
+    ⦾ Implemented and debugged multiple insertion scenarios to strengthen problem-solving skills
+
+    ⦾ Explored the workflow of open-source collaboration through GitHub commits and pull reviews
+
+    ⦾ Created clean and readable documentation using Markdown and collaborative tools
+
+    ⦾ Learned to plan and divide tasks efficiently within the team using milestones and issue tracking
