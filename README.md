@@ -1,19 +1,3 @@
-Sure! Here's the updated version of your project README and documentation with **generic team member names**:
-
-* `291` → Your Roll Number
-* `292` → Team Member 1
-* `293` → Team Member 2
-* `294` → Team Member 3
-* (Optional: Team Member 4 if needed — let me know if you want to include them)
-
----
-
-# ✅ Final README (Updated with Generic Names)
-
----
-
-# D.S-Assignment-1
-
 ## Linked List Team Project – `<TeamName>`
 
 ---
