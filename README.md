@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project is part of *CO3 – Data Structures Lab (S3, INMCA2024-29)*.
 It demonstrates:
@@ -20,7 +20,7 @@ It demonstrates:
 
 ---
 
-## 🖥 Singly Linked List Program
+##  Singly Linked List Program
 
 The C program creates a singly linked list using integer roll numbers.
 It supports:
@@ -84,7 +84,7 @@ int main(){
 
 ---
 
-### 🧪 Sample Output
+###  Sample Output
 
 ```
 Roll Numbers in Linked List : 24 -> 29 -> 39 -> 52
@@ -160,9 +160,9 @@ After merging, the integrated linked list was tested as a whole.
 
 Edge cases (e.g. deleting from an empty list, inserting into an empty list) were considered.
 
-## 🎨 Figma Diagram
+##  Figma Diagram
 
-### 📌 Purpose:
+###  Purpose:
 
 To visually represent:
 
@@ -170,17 +170,17 @@ To visually represent:
 * **Insertion logic** (sequential linking)
 * **Traversal flow**
 
-### 🖼 Diagram Preview:
+###  Diagram Preview:
 
 ![Figma Diagram](https://github.com/fasilasathar/linked-list/blob/main/29%2039%2052%2024.png)
 
-### 🔗 Public Figma Link:
+###  Public Figma Link:
 
 [Click here to view in Figma](https://www.figma.com/design/MQY2hudHYceVL7jgJ4UWUP/Untitled?node-id=0-1&p=f&t=itOqAj1MgsiVVFul-0)
 
 ---
 
-## 📑 Final Report
+##  Final Report
 
 The final report includes:
 
@@ -194,7 +194,7 @@ The final report includes:
 
 ---
 
-## 👥 Team Contributions
+##  Team Contributions
 
 | Member         | Roll No | GitHub Contribution                              |
 | -------------- | ------- | ------------------------------------------------ |
