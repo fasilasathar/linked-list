@@ -33,56 +33,50 @@ It supports:
 ### ✅ Code Snippet
 
 ```c
-#include <stdio.h> 
+#include <stdio.h>
 #include <stdlib.h>
-
-struct Node {
+struct Node{
     int rollNumber;
     struct Node* next;
 };
-
-struct Node* createNode(int rollNumber) {
+struct Node* createNode(int rollNumber){
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->rollNumber = rollNumber;
     newNode->next = NULL;
     return newNode;
 }
-
-void insertNode(struct Node** head, int rollNumber) {
+void insertNode(struct Node** head, int rollNumber){
     struct Node* newNode = createNode(rollNumber);
-    if (*head == NULL) {
+    if (*head == NULL){
         *head = newNode;
         return;
     }
     struct Node* temp = *head;
-    while (temp->next != NULL) {
+    while (temp->next != NULL){
         temp = temp->next;
     }
     temp->next = newNode;
 }
-
-void displayList(struct Node* head) {
+void displayList(struct Node* head){
     struct Node* temp = head;
-    printf("Roll Numbers in Linked List: ");
-    while (temp != NULL) {
+    printf("Roll Numbers in Linked List:");
+
+    while (temp != NULL){
         printf("%d", temp->rollNumber);
-        if (temp->next != NULL) {
+        if (temp->next != NULL){
             printf(" -> ");
         }
         temp = temp->next;
     }
+
     printf("\n");
 }
-
-int main() {
+int main(){
     struct Node* head = NULL;
-
-    // Insert roll numbers (example)
-    insertNode(&head, 291);  // Your Roll Number
-    insertNode(&head, 292);  // Team Member 1
-    insertNode(&head, 293);  // Team Member 2
-    insertNode(&head, 294);  // Team Member 3
-
+    insertNode(&head, 24);
+    insertNode(&head, 29);
+    insertNode(&head, 39);
+    insertNode(&head, 52);
     displayList(head);
     return 0;
 }
@@ -93,7 +87,7 @@ int main() {
 ### 🧪 Sample Output
 
 ```
-Roll Numbers in Linked List: 291 -> 292 -> 293 -> 294
+Roll Numbers in Linked List : 24 -> 29 -> 39 -> 52
 ```
 
 ---
