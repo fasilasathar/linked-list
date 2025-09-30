@@ -1,18 +1,8 @@
-Sure! Here's the updated version of your project README and documentation with **generic team member names**:
-
-* `291` → Your Roll Number
-* `292` → Team Member 1
-* `293` → Team Member 2
-* `294` → Team Member 3
-* (Optional: Team Member 4 if needed — let me know if you want to include them)
+# README
 
 ---
 
-# ✅ Final README (Updated with Generic Names)
-
----
-
-# D.S-Assignment-1
+# D.S-Assignment
 
 ## Linked List Team Project – `<codeconnectors>`
 
@@ -108,22 +98,73 @@ Roll Numbers in Linked List: 291 -> 292 -> 293 -> 294
 
 ---
 
-## 🔀 Team Workflow
+Team Workflow — Single Linked List Project
 
-### 📁 Branching Strategy
+Branching Strategy
 
-Each team member worked on a **Git branch named after their roll number**, allowing independent development and easy pull request management.
+The team used a function-based branching model where each major linked list operation was developed on its own branch. Branches were named using the format:
 
-### 🚀 Contribution Process
+linkedlist/<function-name>
 
-Each teammate contributed by:
+Examples:
 
-* Writing or improving a specific function
-* Committing changes to their branch
-* Creating a **pull request (PR)** to merge with `main`
-* Participating in conflict resolution if needed
+linkedlist/insert-at-beginning
 
----
+linkedlist/delete-node
+
+linkedlist/reverse
+
+linkedlist/display
+
+This made it easy to track contributions and isolate changes by functionality.
+
+Task Distribution
+
+Each team member was assigned one or more linked list functions to implement or optimize, such as:
+
+Node creation
+
+Insertion (at beginning, middle, end)
+
+Deletion (by value, position)
+
+Search
+
+Reverse
+
+Display
+
+Length calculation
+
+Contribution Process
+
+Pull the latest changes from the main branch.
+
+Create a new branch for the assigned function:
+
+git checkout -b linkedlist/<function-name>
+
+Implement and test the function locally.
+
+Commit the changes with a clear message:
+
+git commit -m "Implemented <function-name> for Single Linked List"
+
+Push the branch to the remote repository.
+
+Create a Pull Request (PR) to merge into main.
+
+Request peer review and resolve any conflicts or feedback.
+
+Once approved, merge the PR into the main branch.
+
+Testing and Integration
+
+All functions were tested individually.
+
+After merging, the integrated linked list was tested as a whole.
+
+Edge cases (e.g. deleting from an empty list, inserting into an empty list) were considered.
 
 ## 🎨 Figma Diagram
 
@@ -165,12 +206,12 @@ The final report includes:
 
 ## 👥 Team Contributions
 
-| Member        | Roll No | Contribution                        |
-| ------------- | ------- | ----------------------------------- |
-| Fasila Sathar           | 291     | Main code logic + display function  |
-| Mariya Joseph | 292     | Insertion function                  |
-| Devanandha P S | 293     | Figma diagram + Report formatting   |
-| Sara Paul | 294     | GitHub setup + Pull request reviews |
+| Member         | Roll No | Contribution                         |
+| -------------  | ------- | -----------------------------------  |
+| Fasila Sathar  | 29      | Main code logic + display function   |
+| Mariya Joseph  | 39      | Insertion function                   |
+| Devanandha P S | 24      | Figma diagram + Report formatting    |
+| Sara Paul      | 52      | Git52ub setup + Pull request reviews |
 
 ---
 
@@ -181,14 +222,3 @@ The final report includes:
 * 🔁 Learned how to **collaborate using GitHub**, use **branches**, and manage **pull requests**
 * 🎨 Visualized data structures using **Figma**, making debugging and team understanding easier
 * 🤝 Gained experience in structured **teamwork**, communication, and documentation
-
----
-
-Would you like:
-
-* A downloadable `README.md` file?
-* Final DOCX/PDF report version?
-* Editable contribution table for your actual names?
-
-Just let me know, and I’ll prepare it.
-
