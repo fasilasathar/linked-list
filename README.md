@@ -92,73 +92,97 @@ Roll Numbers in Linked List : 24 -> 29 -> 39 -> 52
 
 ---
 
-Team Workflow — Single Linked List Project
+ Team Workflow — Single Linked List Project
+ Development Strategy
 
-Branching Strategy
+The team adopted a modular development approach, where each contributor focused on an isolated module (e.g., insertion, deletion, traversal). This allowed parallel development and reduced merge conflicts.
 
-The team used a function-based branching model where each major linked list operation was developed on its own branch. Branches were named using the format:
+Branches were named to reflect both the feature and contributor for better traceability:
 
-linkedlist/<function-name>
+feature/<function>-<name>
+
 
 Examples:
 
-linkedlist/insert-at-beginning
+feature/insert-middle-mariya
 
-linkedlist/delete-node
+feature/display-fasila
 
-linkedlist/reverse
+feature/delete-value-devanandha
 
-linkedlist/display
+feature/search-sara
 
-This made it easy to track contributions and isolate changes by functionality.
+This naming convention ensured better accountability and simplified PR tracking.
 
-Task Distribution
+ Task Allocation
 
-Each team member was assigned one or more linked list functions to implement or optimize, such as:
+Tasks were divided based on core functionalities of singly linked lists, with some members also handling cross-functional responsibilities:
 
-Node creation
+Node management & memory allocation
 
-Insertion (at beginning, middle, end)
+Insertion operations (beginning, specific position, end)
 
-Deletion (by value, position)
+Deletion operations (by value, by position)
 
-Search
+Traversal and display
 
-Reverse
+Reversing the list
 
-Display
+Search functionality
 
-Length calculation
+Calculating list length
 
-Contribution Process
+Code cleanup and error handling
 
-Pull the latest changes from the main branch.
+In addition, team roles included documentation, code review, and GitHub workflow coordination.
 
-Create a new branch for the assigned function:
+ Contribution Workflow
 
-git checkout -b linkedlist/<function-name>
+To ensure consistency and smooth collaboration, the following Git-based workflow was followed:
 
-Implement and test the function locally.
+Sync with the main branch:
 
-Commit the changes with a clear message:
+git pull origin main
 
-git commit -m "Implemented <function-name> for Single Linked List"
 
-Push the branch to the remote repository.
+Create a new feature branch:
 
-Create a Pull Request (PR) to merge into main.
+git checkout -b feature/<function>-<your-name>
 
-Request peer review and resolve any conflicts or feedback.
 
-Once approved, merge the PR into the main branch.
+Implement and test the assigned module locally.
 
-Testing and Integration
+Commit with a descriptive message:
 
-All functions were tested individually.
+git commit -m "Add <function> functionality to linked list"
 
-After merging, the integrated linked list was tested as a whole.
 
-Edge cases (e.g. deleting from an empty list, inserting into an empty list) were considered.
+Push the branch to GitHub:
+
+git push origin feature/<function>-<your-name>
+
+
+Open a Pull Request (PR) and assign reviewers.
+
+Collaborate on code reviews, address feedback, and resolve conflicts.
+
+Once approved, the branch was merged into main.
+
+ Testing & Validation
+
+Each function was unit-tested independently for correctness.
+
+Post-merge, the entire linked list program was tested as an integrated system.
+
+Special attention was given to edge cases such as:
+
+Inserting into an empty list
+
+Deleting the only node
+
+Searching for non-existent values
+
+Memory management and pointer safety were verified to prevent leaks and crashes.
 
 ##  Figma Diagram
 
