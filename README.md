@@ -14,7 +14,7 @@ Sure! Here's the updated version of your project README and documentation with *
 
 # D.S-Assignment-1
 
-## Linked List Team Project – `<TeamName>`
+## Linked List Team Project – `<codeconnectors>`
 
 ---
 
@@ -167,10 +167,10 @@ The final report includes:
 
 | Member        | Roll No | Contribution                        |
 | ------------- | ------- | ----------------------------------- |
-| You           | 291     | Main code logic + display function  |
-| Team Member 1 | 292     | Insertion function                  |
-| Team Member 2 | 293     | Figma diagram + Report formatting   |
-| Team Member 3 | 294     | GitHub setup + Pull request reviews |
+| Fasila Sathar           | 291     | Main code logic + display function  |
+| Mariya Joseph | 292     | Insertion function                  |
+| Devanandha P S | 293     | Figma diagram + Report formatting   |
+| Sara Paul | 294     | GitHub setup + Pull request reviews |
 
 ---
 
