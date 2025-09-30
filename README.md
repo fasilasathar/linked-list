@@ -190,9 +190,7 @@ The final report includes:
 
 * ✅ Contributions + Reflection
 
-* 📄 [Download Report (PDF)](https://github.com/Lynx2006/linked-list-team--Data-Structure-/blob/main/Report.pdf)
-
-* 📄 [Download Report (DOCX)](https://github.com/Lynx2006/linked-list-team--Data-Structure-/blob/main/Report.docx)
+* 📄 [Download Report (PDF)](https://github.com/fasilasathar/linked-list/blob/main/Report%20Final%2024%2029%2039%2052.pdf)
 
 ---
 
